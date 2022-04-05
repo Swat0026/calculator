@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calci</title>
+</head>
+<body >
+    <div class="main">
+         <form action="#" class="calcform" name="calcform" style="font-size: larger; margin-left: 500px; width: 50%; font-weight: bolder ; ">
+             <div class="layout">
+                 <input type="text" name="layout"  style="width: 100px;">
+             </div>
+             <div class="btn" >
+                 <input style="background-color: gray; color: black; margin-top: 5px;" type="button" class="resetbtn" name="reset" value="reset" onclick="Reset()">
+             </div>
+             <div class="btn" style="margin-top:10px;">
+                 <input type="button" name="n1" class="numbers" value="1" onclick="numbuttons(this)">
+                 <input type="button" name="n2" class="numbers" value="2" onclick="numbuttons(this)">
+                 <input type="button" name="n3" class="numbers" value="3" onclick="numbuttons(this)">
+                 <input type="button" name="plus" class="numbers" value="+" onclick="numbuttons(this)">
+             </div>
+             <div class="btn">
+                <input type="button" name="n4" class="numbers" value="4" onclick="numbuttons(this)">
+                <input type="button" name="n5" class="numbers" value="5" onclick="numbuttons(this)">
+                <input type="button" name="n6" class="numbers" value="6" onclick="numbuttons(this)">
+                <input type="button" name="sub" class="numbers" value="-" onclick="numbuttons(this)">
+            </div>
+            <div class="btn">
+                <input type="button" name="n7" class="numbers" value="7" onclick="numbuttons(this)">
+                <input type="button" name="n8" class="numbers" value="8" onclick="numbuttons(this)">
+                <input type="button" name="n9" class="numbers" value="9" onclick="numbuttons(this)">
+                <input type="button" name="multiply" class="numbers" value="*" onclick="numbuttons(this)">
+            </div>
+            <div class="btn">
+                <input type="button" name="n0" class="numbers" value="0" onclick="numbuttons(this)">
+                <input type="button" name="divide" class="numbers" value="/" onclick="numbuttons(this)">
+                <input type="button" name="equal" class="numbers" value="=" onclick="Calculate(this)">
+                
+            </div>
+
+         </form>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
